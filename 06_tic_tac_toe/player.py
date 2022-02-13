@@ -38,5 +38,3 @@ class HumanPlayer(Player):
                 print('invalid square. try again: ')
             
         return val
-
-
