@@ -60,6 +60,6 @@ def play(game, x_player, o_player, print_game = True ):
                 print(letter + ' makes a move to sqare {square}')
                 game.print_board()
                 print('')
-
-             #after the move we need to alternate the letters
-             letter = 'O' if letter == 'X' else 'X'
+            
+            # after the move we need to alternate the letters
+            letter = 'O' if letter == 'X' else 'X'
